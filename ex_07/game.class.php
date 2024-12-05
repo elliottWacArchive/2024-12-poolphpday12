@@ -1,5 +1,7 @@
 <?php
 
+require_once('character.class.php');
+
 class Game
 {
     private $length;
