@@ -20,10 +20,14 @@ class Character
         $this->magic = $magic;
         $this->intelligence = $intelligence;
         $this->life = $life;
-        echo 'New player "' . $this->name . '".' . "\n";
         $i++;
     }
     protected function getName()
+    {
+        return $this->name;
+    }
+
+    public function getPublicName()
     {
         return $this->name;
     }

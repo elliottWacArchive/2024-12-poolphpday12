@@ -8,6 +8,7 @@ class Game
     public function addPlayer(object $player)
     {
         array_push($this->players, $player);
+        echo 'New player "' . $player->getPublicName() . '".' . "\n";
     }
 
     public function __construct()
