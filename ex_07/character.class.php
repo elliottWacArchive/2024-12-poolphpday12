@@ -55,7 +55,7 @@ class Character
     {
         $ennemiLife = $ennemi->getLife() - $this->getStrength();
         $ennemi->setLife($ennemiLife);
-        echo '"' . $this->name . '" hits "' . $ennemi->getName() . '"' . "\n";
+        echo '"' . $this->name . '" hits "' . $ennemi->getName() . '".' . "\n";
         echo '"' . $ennemi->getName() . '" loses ' . $this->getStrength() . "HP!\n";
     }
     public function __toString()
