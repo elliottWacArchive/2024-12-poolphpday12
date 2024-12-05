@@ -59,7 +59,6 @@ class Character
         return "My name is " . $this->name . ".\n";
     }
 }
-
 // require_once('game.class.php');
 // $game = new Game();
 // $game->addPlayer(new Character());
